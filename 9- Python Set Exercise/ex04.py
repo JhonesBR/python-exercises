@@ -1,3 +1,8 @@
-# 
+# Given two Python sets, update the first set with items that exist only in the first set and not in the second set.
 # Solution: https://github.com/JhonesBR
 
+set1 = {10, 20, 30}
+set2 = {20, 40, 50}
+
+set1.difference_update(set2)
+print(set1)
